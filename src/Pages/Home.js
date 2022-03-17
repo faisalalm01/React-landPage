@@ -9,7 +9,7 @@ export default class Home extends Component {
     return (
       <div>
         <Navbarr />
-        {/* <Cardd /> */}
+        <Cardd />
         <Footer />
       </div>
     );
