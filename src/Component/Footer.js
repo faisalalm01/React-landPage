@@ -5,7 +5,7 @@ export default function Footer() {
       <div className="container">
         <div className="row">
           <div className="col text-center copyrights">
-            Copyright 2021 • All rights reserved •
+            Copyright 2022 • All rights reserved •
           </div>
         </div>
       </div>
