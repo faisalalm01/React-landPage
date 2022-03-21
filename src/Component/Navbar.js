@@ -4,7 +4,7 @@ import {
   Nav,
   Navbar,
 } from "react-bootstrap";
-import "./Navbar.css"
+import "./style.css"
 
 
 export default class Navbarr extends Component {
@@ -12,9 +12,9 @@ export default class Navbarr extends Component {
     return (
      
 
-      <Navbar  scrolling dark expand="md" fixed="top" variant="dark">
+      <Navbar expand="md" fixed="top" variant="dark" bg="primary">
         <Container>
-        <Navbar.Brand href="#home">Mine</Navbar.Brand>
+        <Navbar.Brand href="#home">Main</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto menumain">

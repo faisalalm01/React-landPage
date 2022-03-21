@@ -4,6 +4,8 @@ import {
     Nav,
     Navbar,
   } from "react-bootstrap";
+  import { Link } from 'react-router-dom'
+// import Home from '../Pages/Home';
 
 export default class NavPanel extends Component {
         render() {
@@ -16,7 +18,7 @@ export default class NavPanel extends Component {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="mr-auto menumain">
-                    <Nav.Link className="btn btn-primary m-2" href="#home">Back To Landing Page</Nav.Link>
+                    <Link to={'/'}><Nav.Link className="btn btn-primary m-2" href="#home">Back To Landing Page</Nav.Link></Link>
                   </Nav>
                 </Navbar.Collapse>
                 </Container>

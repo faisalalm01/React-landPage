@@ -1,0 +1,12 @@
+.menumain {
+    position: absolute;
+    right: 100px;
+}
+.banner {
+    height: 80%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+}
